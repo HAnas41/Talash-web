@@ -307,7 +307,7 @@ export default function Home() {
             <a href="#features" className="transition-colors duration-200 text-gray-400 hover:text-[#c9a84c]">{content.navFeatures}</a>
             <a href="#pipeline" className="transition-colors duration-200 text-gray-400 hover:text-[#c9a84c]">{content.navPipeline}</a>
             <a href="#future" className="transition-colors duration-200 text-gray-400 hover:text-[#c9a84c]">{content.navFuture}</a>
-            <a href="#faqs" className="transition-colors duration-200 text-gray-400 hover:text-[#c9a84c]">{content.navFaqs}</a>
+            <a href="#faqs" className="transition-colors duration-200 text-gray-400 hover:text-[#c9a84c] mr-4">{content.navFaqs}</a>
           </div>
 
           {/* Actions Block: Language Trigger & APK Download */}
