@@ -15,6 +15,7 @@ import {
   HelpCircle
 } from "lucide-react";
 
+
 // --- TRANSLATION CONTENT DICTIONARY ---
 const translations = {
   en: {
@@ -287,7 +288,7 @@ export default function Home() {
     whileInView: { opacity: 1, y: 0 },
     viewport: { once: true },
     transition: { duration: 0.5, ease: "easeOut" }
-  };
+  } as const;
 
   return (
     <div className={`min-h-screen bg-[#0a0a0b] text-[#f4f4f6] font-sans antialiased selection:bg-[#c9a84c] selection:text-[#0a0a0b] ${isRtl ? "rtl text-right" : "ltr text-left"}`}>
